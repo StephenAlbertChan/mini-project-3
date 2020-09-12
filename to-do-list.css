@@ -19,19 +19,22 @@
     text-align: center;
     color: white;
     margin-top: 95px;
-    
+    font-size: 30px;
 }
 
 .task-list{
-    margin: 0 10px;
+    margin: 0 20px;
     max-width: 500px;
     height: 450px;
+    max-height: 500px;
 
 }
 
 .button-and-input-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
 }
 
 .submit-task{
@@ -44,4 +47,22 @@
     width: 60%;
     height: 100%;
 
+}
+
+li {
+    text-align: left;
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+li:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+  
+ul > div {
+    background-image: url(header.PNG);
+    background-repeat: no-repeat;   
+    
 }
