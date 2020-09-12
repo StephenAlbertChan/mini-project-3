@@ -1,0 +1,47 @@
+.to-do-list-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 2px solid black;
+    max-width: 500px;
+    max-height: auto;
+    height: 700px;
+}
+
+.background-image{
+    height: 195px;
+    width: auto;
+    background-image: url(header.PNG);
+    background-repeat: no-repeat;    
+}
+
+.date{
+    text-align: center;
+    color: white;
+    margin-top: 95px;
+    
+}
+
+.task-list{
+    margin: 0 10px;
+    max-width: 500px;
+    height: 450px;
+
+}
+
+.button-and-input-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.submit-task{
+    width: 25%;
+    height: 100%;
+
+}
+
+.input-task{
+    width: 60%;
+    height: 100%;
+
+}
